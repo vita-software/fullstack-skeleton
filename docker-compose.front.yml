@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  frontend:
+    image: ambientum/node:8
+    command: yarn start
+    volumes:
+      - ./frontend:/var/www/app
+    ports:
+      - 8088:3000
