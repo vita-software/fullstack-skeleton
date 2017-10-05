@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  backend:
+    image: ambientum/php:7.1-caddy
+    volumes:
+      - ./backend:/var/www/app
+    ports:
+      - 8888:8080

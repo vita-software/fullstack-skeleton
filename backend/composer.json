@@ -3,6 +3,8 @@
     "license": "proprietary",
     "require": {
         "php": "^7.0.8",
+        "phpunit/phpunit": "^6.3",
+        "symfony/console": "^3.3",
         "symfony/framework-bundle": "^3.3",
         "symfony/yaml": "^3.3"
     },
